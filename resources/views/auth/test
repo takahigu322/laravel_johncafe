@@ -1,0 +1,13 @@
+                        <div class="form-group row">
+                            <label for="belongs" class="col-md-4 col-form-label text-md-right">所属</label>
+
+                            <div class="col-md-6">
+                                <input id="berongs" type="text" class="form-control" name="belongs" required autocomplete="organization" value="{{ old('belongs') }}">
+
+                                @error('belongs')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>

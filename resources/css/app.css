@@ -1,0 +1,1 @@
+{!! Form::text('your_column_name', old('your_column_name'), ['class' => 'form-control', 'placeholder' => 'Your Column Name']) !!}
